@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56a0a925aefaa6e819ccb13b33b83d49",
+    "content-hash": "a29af34092c3514d187645f184b7d3ff",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1453,6 +1453,44 @@
             }
         },
         {
+            "name": "knowfox/crud",
+            "version": "dev-with-laravel8",
+            "dist": {
+                "type": "path",
+                "url": "packages/knowfox/crud",
+                "reference": "7102732f48290eadfdb516206c04c088f5fe03b3"
+            },
+            "require": {
+                "laravel/framework": "^8.0"
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Knowfox\\Crud\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knowfox\\Crud\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Olav Schettler",
+                    "email": "olav@schettler.net"
+                }
+            ],
+            "description": "A CRUD generator for Laravel",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
             "name": "laravel/fortify",
             "version": "v1.6.1",
             "source": {
@@ -2252,12 +2290,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/knowfox/versionable.git",
+                "url": "https://github.com/mpociot/versionable.git",
                 "reference": "44bc5cc15bbc1432ede1546f7b01f16cdbe34f1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/knowfox/versionable/zipball/44bc5cc15bbc1432ede1546f7b01f16cdbe34f1e",
+                "url": "https://api.github.com/repos/mpociot/versionable/zipball/44bc5cc15bbc1432ede1546f7b01f16cdbe34f1e",
                 "reference": "44bc5cc15bbc1432ede1546f7b01f16cdbe34f1e",
                 "shasum": ""
             },
@@ -7647,7 +7685,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "knowfox/core": 20
+        "knowfox/core": 20,
+        "knowfox/crud": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

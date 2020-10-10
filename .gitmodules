@@ -1,3 +1,6 @@
 [submodule "packages/knowfox/core"]
 	path = packages/knowfox/core
 	url = git@github.com:knowfox/core.git
+[submodule "packages/knowfox/crud"]
+	path = packages/knowfox/crud
+	url = git@github.com:knowfox/crud.git
