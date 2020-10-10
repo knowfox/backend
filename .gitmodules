@@ -1,0 +1,3 @@
+[submodule "packages/knowfox/core"]
+	path = packages/knowfox/core
+	url = git@github.com:knowfox/core.git

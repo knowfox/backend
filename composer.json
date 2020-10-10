@@ -7,6 +7,19 @@
         "laravel"
     ],
     "license": "GPLv3",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/knowfox/core",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/knowfox/versionable.git"
+        }
+    ],
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
@@ -16,7 +29,8 @@
         "laravel/jetstream": "^1.4",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.0",
-        "livewire/livewire": "^2.0"
+        "livewire/livewire": "^2.0",
+        "knowfox/core": "dev-with-laravel8"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
