@@ -1,12 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "knowfox/base",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Knowfox Personal Knowledge Management.",
     "keywords": [
         "framework",
         "laravel"
     ],
-    "license": "MIT",
+    "license": "GPLv3",
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
