@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a29af34092c3514d187645f184b7d3ff",
+    "content-hash": "88c156c0c5bb8df8cd997b8f40ae2fd4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1486,6 +1486,44 @@
                 }
             ],
             "description": "A CRUD generator for Laravel",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "knowfox/frontend",
+            "version": "dev-with-laravel8",
+            "dist": {
+                "type": "path",
+                "url": "packages/knowfox/frontend",
+                "reference": "01d427ac6d69f3055dd1ae13cd3162d66cf0dfbf"
+            },
+            "require": {
+                "knowfox/core": "dev-with-laravel8"
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Knowfox\\Frontend\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knowfox\\Frontend\\": "src/"
+                }
+            },
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Olav Schettler",
+                    "email": "olav@schettler.net"
+                }
+            ],
+            "description": "Knowfox. A personal knowledge management system",
             "transport-options": {
                 "symlink": true
             }
@@ -7686,7 +7724,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "knowfox/core": 20,
-        "knowfox/crud": 20
+        "knowfox/crud": 20,
+        "knowfox/frontend": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

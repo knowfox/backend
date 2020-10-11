@@ -21,6 +21,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "path",
+            "url": "packages/knowfox/frontend",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
@@ -34,7 +41,8 @@
         "laravel/tinker": "^2.0",
         "livewire/livewire": "^2.0",
         "knowfox/core": "dev-with-laravel8",
-        "knowfox/crud": "dev-with-laravel8"
+        "knowfox/crud": "dev-with-laravel8",
+        "knowfox/frontend": "dev-with-laravel8"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
