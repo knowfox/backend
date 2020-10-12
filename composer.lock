@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88c156c0c5bb8df8cd997b8f40ae2fd4",
+    "content-hash": "632b911950db1ee13e4a2f88631c5c89",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -106,73 +106,6 @@
             "description": "BaconQrCode is a QR code generator for PHP.",
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "time": "2020-07-30T16:40:58+00:00"
-        },
-        {
-            "name": "barryvdh/laravel-cors",
-            "version": "v2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruitcake/laravel-cors.git",
-                "reference": "4b19bfc3bd422948af37a42a62fad7f49025894a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruitcake/laravel-cors/zipball/4b19bfc3bd422948af37a42a62fad7f49025894a",
-                "reference": "4b19bfc3bd422948af37a42a62fad7f49025894a",
-                "shasum": ""
-            },
-            "require": {
-                "asm89/stack-cors": "^2.0.1",
-                "illuminate/contracts": "^6|^7|^8",
-                "illuminate/support": "^6|^7|^8",
-                "php": ">=7.2",
-                "symfony/http-foundation": "^4|^5",
-                "symfony/http-kernel": "^4.3.4|^5"
-            },
-            "require-dev": {
-                "laravel/framework": "^6|^7|^8",
-                "orchestra/testbench-dusk": "^4|^5|^6",
-                "phpunit/phpunit": "^6|^7|^8",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Fruitcake\\Cors\\CorsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Fruitcake\\Cors\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fruitcake",
-                    "homepage": "https://fruitcake.nl"
-                },
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
-            "keywords": [
-                "api",
-                "cors",
-                "crossdomain",
-                "laravel"
-            ],
-            "time": "2020-09-07T11:48:52+00:00"
         },
         {
             "name": "brick/math",
@@ -1411,12 +1344,12 @@
             "dist": {
                 "type": "path",
                 "url": "packages/knowfox/core",
-                "reference": "55ea285143c41e37322271eb22abca4917a5760e"
+                "reference": "c28c3559e8d3223e40ca03cdd4b02a944c560c2e"
             },
             "require": {
-                "barryvdh/laravel-cors": "^2.0",
                 "cebe/markdown": "^1.2",
                 "doctrine/dbal": "^2.9",
+                "fruitcake/laravel-cors": "^2.0",
                 "guzzlehttp/guzzle": "^7.0",
                 "kalnoy/nestedset": "^5.0",
                 "laravel/framework": "^8.0",
@@ -1425,7 +1358,7 @@
                 "rtconner/laravel-tagging": "^3.2",
                 "symfony/yaml": "^4.3"
             },
-            "type": "library",
+            "type": "laravel-package",
             "extra": {
                 "laravel": {
                     "providers": [

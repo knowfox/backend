@@ -66876,8 +66876,7 @@ __webpack_require__(/*! featherlight */ "./node_modules/featherlight/release/fea
  // loads the Icon plugin
 
 uikit__WEBPACK_IMPORTED_MODULE_0___default.a.use(uikit_dist_js_uikit_icons__WEBPACK_IMPORTED_MODULE_1___default.a); // components can be called from the imported UIkit reference
-
-uikit__WEBPACK_IMPORTED_MODULE_0___default.a.notification('Welcome to Knowfox.');
+//UIkit.notification('Welcome to Knowfox.');
 
 /***/ }),
 

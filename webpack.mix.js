@@ -11,7 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix
+    .copyDirectory('packages/knowfox/frontend/assets/img', 'public/img')
+    .js('resources/js/app.js', 'public/js')
     .sass('resources/scss/app.scss', 'public/css')
     .options({
         postCss: [

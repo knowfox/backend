@@ -17,4 +17,4 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 // components can be called from the imported UIkit reference
-UIkit.notification('Welcome to Knowfox.');
+//UIkit.notification('Welcome to Knowfox.');
